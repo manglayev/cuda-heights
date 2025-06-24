@@ -1,0 +1,8 @@
+*.o
+*~
+*.pyc
+**/__pycache__/
+**/.vscode/
+
+*.class
+*.DS_Store
