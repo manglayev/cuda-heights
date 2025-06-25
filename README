@@ -1,0 +1,10 @@
+# basic CUDA examples
+commands to run a project with more than one file:
+#compile and link:
+make all
+#run:
+./make
+#clean:
+clean all
+command to run a project with one cuda (*.cu) file:
+nvcc -arch=sm_70 -o caller example-3/caller.cu -run
