@@ -1,6 +1,10 @@
 #include "example-2-header.h"
 #include "device_launch_parameters.h"
 #include "cuda_runtime.h"
+/*
+    SIMPLE PROGRAM TO CALL A GPU KERNEL WITH ARGUMENTS FOR THREE ARRAYS. C = A + B.
+    CudaMemPrefetchAsync is used and here there is only one file in the project.
+*/
 
 __global__ void kernel(int *a, int *b, int *c, int N)
 {
