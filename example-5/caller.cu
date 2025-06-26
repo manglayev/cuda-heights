@@ -25,7 +25,7 @@ void print(int *a, int N)
         if (c % 8 == 0) cout <<"\n";
     }
 }
-
+/* SIMPLE CUDA PROGRAM WITH THE EXAMPLES OF THE MEMORY ALLOCATION AND COPY TO DEVICE AND TO HOST */
 int main()
 {
     int N = 2 << 7;

@@ -24,6 +24,7 @@ __global__ void reduction(int *input, int *output)
         output[blockIdx.x] = sdata[0];
     __syncthreads();
 }
+/* SIMPLE CUDA REDUCTION PROGRAM */
 int main()
 {
     int h_a[THREADS * BLOCKS];

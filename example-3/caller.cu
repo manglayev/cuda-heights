@@ -36,7 +36,7 @@ void print(int *a, int N)
         if(c % 8 == 0) cout << "\n";
     }
 }
-
+/* SIMPLE CUDA PROGRAM WITH THE EXAMPLES OF THE MEMORY PRE FETCHING */
 int main()
 {
     int *a;
