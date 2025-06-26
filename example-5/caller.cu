@@ -28,11 +28,9 @@ void print(int *a, int N)
 
 int main()
 {
-
-
     int N = 2 << 7;
     size_t size = N * sizeof(int);
-
+    
     int h_a[N];    
     for(int i = 0; i < N; i++)
     {
