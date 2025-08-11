@@ -1,4 +1,3 @@
-#include "header.h"
 #include "device_launch_parameters.h"
 #include "cuda_runtime.h"
 
@@ -6,9 +5,11 @@
 #include <thrust/universal_vector.h>
 #include <thrust/transform.h>
 #include <cstdio>
+#include <iostream>
+using namespace std;
 
 /*
-    Simple C++ transform run on the device and labmda
+    Simple C++ transform run on the device and lambda
 */
 
 void playing_with_lambda()
@@ -23,7 +24,7 @@ void playing_with_lambda()
     printf("y = %d;\n", y);
 }
 
-void caller()
+int main()
 {
     cout << "caller start;\n";    
     
