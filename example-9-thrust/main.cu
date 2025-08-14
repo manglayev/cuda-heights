@@ -1,3 +1,4 @@
+
 #include "device_launch_parameters.h"
 #include "cuda_runtime.h"
 
@@ -6,6 +7,7 @@
 #include <thrust/transform.h>
 #include <cstdio>
 #include <iostream>
+
 using namespace std;
 
 /*

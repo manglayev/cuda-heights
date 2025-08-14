@@ -9,5 +9,6 @@ main: main.o
 
 main.o: main.cu
 	${NVCC} ${CUDAFLAGS} -c main.cu
+	
 clean:
 	${RM} *.o main
